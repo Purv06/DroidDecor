@@ -1,0 +1,629 @@
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(128, 128, 128, 0.8),
+    rgba(255, 255, 255, 0)
+  );
+  width: 100%;
+  height: 100%;
+}
+.final-logo-1 {
+  position: absolute;
+  top: 188px;
+  left: 188px;
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  z-index: 1;
+}
+.ellipse-parent {
+  height: 675px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frame-wrapper {
+  position: absolute;
+  top: 0;
+  left: 63px;
+  width: 675px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-item {
+  height: 100px;
+  width: 800px;
+  position: relative;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-black);
+  display: none;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.droiddecor,
+.rectangle-parent {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.droiddecor {
+  margin: 0;
+  height: 85px;
+  width: 375px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: inherit;
+  background: linear-gradient(90deg, #ffaf77, #ffaad8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-items: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 575px;
+  left: 0;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-black);
+  width: 800px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-5xs) 21px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frame-inner,
+.frame-parent {
+  width: 800px;
+  position: relative;
+  max-width: 100%;
+}
+.frame-parent {
+  height: 675px;
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  font-family: var(--font-inter);
+}
+.frame-inner {
+  height: 100px;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-gray-100);
+  display: none;
+  mix-blend-mode: normal;
+}
+.our-apps,
+.rectangle-group {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.our-apps {
+  margin: 0;
+  height: 85px;
+  width: 375px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: inherit;
+  align-items: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.rectangle-group {
+  align-self: stretch;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-gray-100);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-5xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-23xl);
+  color: var(--color-white);
+}
+.andorid,
+.rectangle-div {
+  position: relative;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.rectangle-div {
+  height: 100px;
+  width: 800px;
+  border-radius: var(--br-56xl);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 128, 45, 0.2),
+    rgba(219, 28, 131, 0.2)
+  );
+  display: none;
+}
+.andorid {
+  margin: 0;
+  height: 85px;
+  flex: 1;
+  font-size: inherit;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.rectangle-container {
+  align-self: stretch;
+  border-radius: var(--br-56xl);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 128, 45, 0.2),
+    rgba(219, 28, 131, 0.2)
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child1,
+.ios {
+  position: relative;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.frame-child1 {
+  height: 100px;
+  width: 800px;
+  border-radius: var(--br-56xl);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 128, 45, 0.2),
+    rgba(219, 28, 131, 0.2)
+  );
+  display: none;
+}
+.ios {
+  margin: 0;
+  height: 85px;
+  flex: 1;
+  font-size: inherit;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.frame-group,
+.group-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.group-div {
+  align-self: stretch;
+  border-radius: var(--br-56xl);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 128, 45, 0.2),
+    rgba(219, 28, 131, 0.2)
+  );
+  flex-direction: row;
+  padding: var(--padding-6xs) 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.frame-group {
+  width: 800px;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frame-child2 {
+  height: 100px;
+  width: 800px;
+  position: relative;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-gray-100);
+  display: none;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.follow-us,
+.rectangle-parent1 {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.follow-us {
+  margin: 0;
+  height: 85px;
+  width: 375px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: inherit;
+  align-items: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.rectangle-parent1 {
+  align-self: stretch;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-gray-100);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.image-4-icon {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  border-radius: var(--br-331xl);
+  object-fit: cover;
+  z-index: 2;
+}
+.image-4-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.icon-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-gray-200);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.droiddecor1,
+.frame-parent2 {
+  display: flex;
+  position: relative;
+}
+.droiddecor1 {
+  height: 85px;
+  width: 217px;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.frame-parent2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-2xs) var(--padding-6xs);
+  row-gap: 20px;
+}
+.image-4-icon1 {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  border-radius: var(--br-331xl);
+  object-fit: cover;
+  z-index: 2;
+}
+.image-4-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.frame-child3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-gray-200);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.droiddecor2 {
+  height: 85px;
+  width: 217px;
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.frame-parent1,
+.frame-parent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent3 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-2xs) var(--padding-5xs);
+  position: relative;
+  row-gap: 20px;
+}
+.frame-parent1 {
+  width: 350px;
+  flex-direction: column;
+  gap: var(--gap-36xl);
+  max-width: 100%;
+}
+.image-5-icon {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  object-fit: cover;
+  z-index: 2;
+}
+.image-5-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.frame-child4 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-gray-200);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.droiddecor3,
+.frame-parent5 {
+  display: flex;
+  position: relative;
+}
+.droiddecor3 {
+  height: 85px;
+  width: 217px;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.frame-parent5 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-2xs) var(--padding-5xs);
+  gap: var(--gap-7xs);
+}
+.image-5-icon1 {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  object-fit: cover;
+  z-index: 2;
+}
+.image-5-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.frame-child5 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-gray-200);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.droiddecor4,
+.frame-parent6 {
+  display: flex;
+  position: relative;
+}
+.droiddecor4 {
+  height: 85px;
+  width: 217px;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  mix-blend-mode: normal;
+}
+.frame-parent6 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-2xs) var(--padding-5xs);
+  gap: var(--gap-7xs);
+}
+.frame-div,
+.frame-parent4 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent4 {
+  width: 350px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.frame-div {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.droid-decor,
+.frame-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-container {
+  width: 800px;
+  align-items: flex-start;
+  gap: 67px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.droid-decor {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  align-items: center;
+  padding: 0 var(--padding-xl) 113px;
+  box-sizing: border-box;
+  gap: 155px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 850px) {
+  .droiddecor,
+  .our-apps {
+    font-size: var(--font-size-15xl);
+  }
+  .andorid,
+  .ios {
+    font-size: var(--font-size-13xl);
+  }
+  .follow-us {
+    font-size: var(--font-size-15xl);
+  }
+  .frame-div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .frame-container {
+    gap: 33px;
+  }
+  .droid-decor {
+    gap: 77px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .droiddecor,
+  .our-apps {
+    font-size: var(--font-size-6xl);
+  }
+  .andorid,
+  .ios {
+    font-size: var(--font-size-5xl);
+  }
+  .frame-group {
+    gap: 25px;
+  }
+  .follow-us {
+    font-size: var(--font-size-6xl);
+  }
+  .droiddecor1 {
+    font-size: var(--font-size-xl);
+  }
+  .frame-parent2 {
+    flex-wrap: wrap;
+  }
+  .droiddecor2 {
+    font-size: var(--font-size-xl);
+  }
+  .frame-parent3 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .frame-parent1 {
+    gap: var(--gap-8xl);
+  }
+  .droiddecor3 {
+    font-size: var(--font-size-xl);
+  }
+  .frame-parent5 {
+    flex-wrap: wrap;
+  }
+  .droiddecor4 {
+    font-size: var(--font-size-xl);
+  }
+  .frame-parent6 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .frame-parent4 {
+    gap: var(--gap-8xl);
+  }
+  .frame-container {
+    gap: 17px;
+  }
+  .droid-decor {
+    gap: 39px;
+  }
+}
